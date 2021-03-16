@@ -13,6 +13,7 @@ import ContactUs from './components/ContactUs';
 import Navbar from './components/Navbar'
 import FormsUsingFormik from './components/FormsUsingFormik'
 import CardAnimation from './components/CardAnimation'
+import Main from './containers/Main';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
      <>
     
     {/* <FormsUsingFormik/> */}
-     <Navbar/>
+    <Main/>
      {/* <CardAnimation/> */}
      
      </>

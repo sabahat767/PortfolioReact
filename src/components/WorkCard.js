@@ -12,6 +12,7 @@ import '../App.css'
 const useStyles = makeStyles({
   root: {
     width: 280,
+    // border:'2px solid black'
    
   },
   media: {
@@ -32,10 +33,10 @@ export default function WorkCard({image,text}) {
       style={{ transform: props.xys.interpolate(trans) }}
     >
       <Card className={classes.root}>
-      <CardActionArea>
+      
         <CardMedia
           className={classes.media}
-          image={image}
+          image={image} width={50} height={50}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -46,7 +47,7 @@ export default function WorkCard({image,text}) {
           </Typography>
         
         </CardContent>
-      </CardActionArea>
+     
     </Card>
     </animated.div>
         

@@ -64,18 +64,20 @@ export default function SimpleCard() {
      <CardContent>
      <Typography  variant="h5" component="h2" gutterBottom>
     <ImportantDevicesIcon style={{fontSize:'2em'}}/>
-     Skills
+    Development Skills
       </Typography>
       <Typography className={classes.pos} color="textSecondary">
        <ul>
            <li>
-           MS Office 2016
+           <b>Front End:</b> HTML, CSS, JavaScript, ES6, React.
            </li>
            <li>
-           Html/CSS/Bootstrap
+           <b>Back End:</b> Node.js using Express, C#, Python.
+
            </li>
            <li>
-          Javascript/ES6/C #/Python/PHP
+           <b>Database:</b> Firebase, MongoDB, SQL.
+
            </li>
           
                </ul>

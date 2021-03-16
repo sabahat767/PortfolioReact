@@ -98,7 +98,7 @@ return (
         <List >
                   {/* <ListItemText  */}
                 {/* //  primary="React Developer" */}
-                <Header as='h2' textAlign='center'>
+                <Header as='h6' textAlign='center'>
                 <Header.Content style={{color:'white'}}>React Developer</Header.Content>
               </Header>
                   {/* /> */}
